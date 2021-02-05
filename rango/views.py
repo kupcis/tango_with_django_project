@@ -26,8 +26,6 @@ def index(request):
 
     response = render(request, 'rango/index.html', context=context_dict)
     
-
-    # Render the response and send it back!
     return response
 
 def about(request):   
